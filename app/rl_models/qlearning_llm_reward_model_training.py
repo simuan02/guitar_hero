@@ -1,8 +1,10 @@
 import json
+import os
 import pickle
 from collections import defaultdict
 from pathlib import Path
 
+import dotenv
 import numpy as np
 from pymongo import MongoClient
 
@@ -145,4 +147,8 @@ def main():
 
 
 if __name__ == "__main__":
+    dotenv.load_dotenv()
+    if not os.getenv("GUITAR_HERO_API_KEY"):
+        raise Exception("Gemini API KEY not set. Please set the environment variable GUITAR_HERO_API_KEY "
+                        "with a valid Gemini API key in the .env file")
     main()

@@ -184,4 +184,7 @@ def main():
 
 
 if __name__ == "__main__":
+    if not os.getenv("GUITAR_HERO_API_KEY"):
+        raise Exception("Gemini API KEY not set. Please set the environment variable GUITAR_HERO_API_KEY "
+                        "with a valid Gemini API key in the .env file")
     main()
