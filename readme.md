@@ -2,7 +2,7 @@ Prima di eseguire qualsiasi script, eseguire i seguenti comandi da terminale:
 
 Windows:
 
-git clone https://github.com/simuan02/guitar_hero_rl.git
+git clone https://github.com/simuan02/guitar_hero.git
 
 cd guitar_hero_rl
 
@@ -11,7 +11,7 @@ cd guitar_hero_rl
 
 Mac/Linux:
 
-git clone https://github.com/simuan02/guitar_hero_rl.git
+git clone https://github.com/simuan02/guitar_hero.git
 
 cd guitar_hero_rl
 
