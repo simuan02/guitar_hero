@@ -3,12 +3,19 @@
 Before executing any script, the MongoDB database must be initialized using Docker.
 
 ### Prerequisites
+<<<<<<< HEAD
+=======
+
+>>>>>>> fa435b517d50d7f12729b38e1f3529b16da68f1a
 - Git
 - Docker Desktop (with Docker Compose)
 - Python 3.10+
 
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> fa435b517d50d7f12729b38e1f3529b16da68f1a
 ### Database initialization
 
 Execute the following commands from terminal, before executing any script:
